@@ -108,7 +108,7 @@ input, select, textarea {
 		}
 
 	.dark {
-		color: #000000;
+		color: #003300;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -166,7 +166,7 @@ input, select, textarea {
 		}
 
 	.dark a {
-		color: #fff;
+		color: #000000;
 		border-bottom-color: rgba(255, 255, 255, 0.5);
 	}
 
@@ -2057,7 +2057,7 @@ input, select, textarea {
 	.dark .button {
 		background: rgba(255, 255, 255, 0.15);
 		box-shadow: inset 0 0 0 1px #fff;
-		color: #fff;
+		color: #000000;
 	}
 
 		.dark input[type="button"]:hover,
@@ -2134,7 +2134,7 @@ input, select, textarea {
 	.dark .feature-icon .icon {
 		background: rgba(255, 255, 255, 0.15);
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-		color: #fff;
+		color: #000000;
 	}
 
 	.dark .feature-icon:before, .dark .feature-icon:after {
