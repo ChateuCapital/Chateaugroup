@@ -2249,7 +2249,7 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bg01.png"), linear-gradient(45deg, #BEBEBE, #BEBEBE, #BEBEBE);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bg01.png"), linear-gradient(45deg, #3A5FCD, #3A5FCD, #3A5FCD);
 			}
 
 			.main > .content.style2 {
