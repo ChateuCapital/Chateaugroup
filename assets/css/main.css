@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-		color: #FF1493;   /* aqui são as cores dos titulos juntos com o group chateau */
+		color: #000000;   /* aqui são as cores dos titulos juntos com o group chateau */
 	}
 
 	strong, b {
@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	em, i {
-		font-style: italic;
+		font-style: inherit;
 	}
 
 	a {
@@ -2249,7 +2249,7 @@ input, select, textarea {
 			}
 
 			.main > .content.style1 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bg01.png"), linear-gradient(45deg, #fff, #000, #412e4c);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bg01.png"), linear-gradient(45deg, #BEBEBE, #BEBEBE, #BEBEBE);
 			}
 
 			.main > .content.style2 {
