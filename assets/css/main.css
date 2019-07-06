@@ -124,7 +124,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
 		margin: 0 0 1em 0;
-		font-style: oblique;
+		font-style: 'URW Chancery L', cursive;
 		line-height: 1.5em;
 	}
 
