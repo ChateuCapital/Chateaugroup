@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+		margin: 0;
+		padding: 0;
+}
+
+
+body{
+		background-color: #ddd;
+		font-family: 'Roboto Condensed';
+}
+
+	.nav_aula{
+		width: 60px;
+		height: 400px;
+		margin: 100px auto;
+		box-sizing: border-box
+		background-color: #fff;
+		position: absolute;
+		top: -100px;
+		left: 2px
+}
+
+	.nav_aula ul{
+		list-style: none;
+		box-sizing: border-box;
+}
+
+	.nav_aula ul li{
+		float: left;
+		box-sizing: border-box;
+}
+
+	.aula_label{
+		display: block;
+		width: 100px;
+		box-sizing: border-box;
+		background-color: #3d3d3d;
+		padding: 15px;
+		font-size: 15px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+	}
+
+
+	.nav_aula .rp_aula { 
+	display:none;
+	position: relative;
+}
+
+.nav_aula .rp_aula:checked ~ label { 
+	box-sizing: border-box;
+	background-color: blue;
+	color:#fff;
+}
+
+.aula_content{
+	border-left: solid 5px orange;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: 320px;
+	width: 600px;
+	
+	left: 0px;	
+}
+
+.rp_aula:checked ~ .tab-content{
+	display: block;
+}
+
+}
+.aula-content h2{
+	padding: 10px;
+	color: #87d3b7;
+}
+.aula-content article{
+	padding: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+	</style>
+</head>
+<body>
+		<nav class="nav_aula">
+									<ul>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula1">
+											<label for="aula1" class="aula_label">Aula 1</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													<nav class="nav_jan">
+											<ul>
+															<li>
+																<input type="radio" name="jan" class="rd_jan" id="jan1">
+																<div class="jan_content"></div>
+															</li>  <!---aqui entra os players -->
+									</ul>
+		</nav>
+</body>
+</html>
