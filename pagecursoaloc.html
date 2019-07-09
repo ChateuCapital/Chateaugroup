@@ -54,7 +54,7 @@ body{
 
 	.nav_tabs{
 		width: 60px;
-		height: 400px;
+		height: 500px;
 		margin: 100px auto;
 		box-sizing: border-box
 		background-color: #fff;
@@ -93,17 +93,17 @@ body{
 
 .nav_tabs .rd_tab:checked ~ label { 
 	box-sizing: border-box;
-	background-color: blue;
+	background-color: red;
 	color:#fff;}
 
 .tab-content{
-	border-top: solid 5px red;
+	border-top: solid 5px orange;
 	background-color: #fff;
 	display: none;
 	position: absolute;
-	height: 250px;
-	width: 105px;
-	top: fixed;
+	height: auto;
+	width: auto;
+	
 	left: 100px;	
 }
 
@@ -119,10 +119,10 @@ body{
 	display: none;
 	
 	height: auto;
-	width: 200px;
+	width: 100%;
 	position: absolute;
 	top: 0;
-	left: 1px;
+	left: 10px;
 	color: #87d3b7;
 }
 .tab-content article{
@@ -131,7 +131,7 @@ body{
 	cursor: pointer;
 	
 	position: absolute;
-	top: 0;
+	top: auto;
 	left: 1px;
 	}
 }
@@ -187,25 +187,61 @@ body{
 	color:#fff;}
 
 .aula-content{
-	border-top: solid 5px #e54e43;
+	border-top: solid 5px orange;
 	background-color: #fff;
 	display: none;
 	position: absolute;
-	height: 250px;
-	width: 105px;
-	left: 500;	
+	height: auto;
+	width: auto;
+	
+	left: 100px;	
 }
 
-.rd_aula:checked ~ .tab-content{
+.rd_aula:checked ~ .aula-content{
 	display: block;
 }
+
+
 .aula-content h2{
 	padding: 10px;
+	border-top: solid 5px orange;
+	background-color: #fff;
+	display: none;
+	
+	height: 1280px;
+	width: 720px;
+	position: absolute;
+	top: 0;
+	left: 10px;
 	color: #87d3b7;
 }
 .aula-content article{
 	padding: 10px;
+	background-color: inherit;
 	color: #555;
+	cursor: pointer;
+	height: 740px;
+	width: 1600px;
+	position: absolute;
+	top: -150;
+	left: 32px;
+	}
+.aula-content p{
+	padding: 10px;
+	background-color: inherit;
+	position: absolute;
+	width:720px; 
+	height:300;
+	top: 80px;
+	left: 210px;
+}
+.aula-content h1{
+	padding: 10px;
+	color: black;
+	font-size: 15pt;
+	font-family: 'Arial';
+	position: absolute;
+	;
 }
 
 /* aqui entra o css dos player de video */
@@ -239,14 +275,13 @@ body{
 											<div class="aula-content">
 												<h2>Link da aula aqui</h2>
 												<article>
-													<nav class="nav_jan">
-														<ul>
-															<li>
-																<input type="radio" name="jan" class="rd_jan" id="jan1">
-																<div class="jan_content"></div>
-															</li>  <!---aqui entra os players -->
-														</ul>
-													</nav>
+													<h1>Aula 1 - Indução de preços</h1>
+														
+													
+													<p>
+														<iframe width="740" height="480" src="https://www.youtube.com/embed/x2Suyy8Kb4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+													</p>
+
 												</article>
 											</div>
 										</li>
